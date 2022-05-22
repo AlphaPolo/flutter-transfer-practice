@@ -1,11 +1,9 @@
-import 'package:flutter/material.dart';
-
-class Subtitle {
+class MySubtitle {
   int? id;
   String? native;
   String? foreign;
   int start;
   int end;
 
-  Subtitle({ this.id, this.native, this.foreign, this.start = 0, this.end = 0});
+  MySubtitle({ this.id, this.native, this.foreign, this.start = 0, this.end = 0});
 }

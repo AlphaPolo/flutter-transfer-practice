@@ -36,103 +36,103 @@ class _VideoPageState extends State<VideoPage> {
 
   late YoutubePlayerController _controller;
 
-  final List<Subtitle> subtitles = [
-    Subtitle(
+  final List<MySubtitle> subtitles = [
+    MySubtitle(
       id: 0,
       native: "Test Test Test Test Test Test",
       foreign: "Test Test Test Test Test Test",
     ),
-    Subtitle(
+    MySubtitle(
       id: 1,
       native: "Test Test Test Test Test Test",
       foreign: "Test Test Test Test Test Test",
     ),
-    Subtitle(
+    MySubtitle(
       id: 2,
       native: "Test Test Test Test Test Test",
       foreign: "Test Test Test Test Test Test",
     ),
-    Subtitle(
+    MySubtitle(
       id: 3,
       native: "Test Test Test Test Test Test",
       foreign: "Test Test Test Test Test Test",
     ),
-    Subtitle(
+    MySubtitle(
       id: 4,
       native: "Test Test Test Test Test Test",
       foreign: "Test Test Test Test Test Test",
     ),
-    Subtitle(
+    MySubtitle(
       id: 5,
       native: "Test Test Test Test Test Test",
       foreign: "Test Test Test Test Test Test",
     ),
-    Subtitle(
+    MySubtitle(
       id: 6,
       native: "Test Test Test Test Test Test",
       foreign: "Test Test Test Test Test Test",
     ),
-    Subtitle(
+    MySubtitle(
       id: 7,
       native: "Test Test Test Test Test Test",
       foreign: "Test Test Test Test Test Test",
     ),
-    Subtitle(
+    MySubtitle(
       id: 8,
       native: "Test Test Test Test Test Test",
       foreign: "Test Test Test Test Test Test",
     ),
-    Subtitle(
+    MySubtitle(
       id: 9,
       native: "Test Test Test Test Test Test",
       foreign: "Test Test Test Test Test Test",
     ),
-    Subtitle(
+    MySubtitle(
       id: 10,
       native: "Test Test Test Test Test Test",
       foreign: "Test Test Test Test Test Test",
     ),
-    Subtitle(
+    MySubtitle(
       id: 11,
       native: "Test Test Test Test Test Test",
       foreign: "Test Test Test Test Test Test",
     ),
-    Subtitle(
+    MySubtitle(
       id: 12,
       native: "Test Test Test Test Test Test",
       foreign: "Test Test Test Test Test Test",
     ),
-    Subtitle(
+    MySubtitle(
       id: 13,
       native: "Test Test Test Test Test Test",
       foreign: "Test Test Test Test Test Test",
     ),
-    Subtitle(
+    MySubtitle(
       id: 14,
       native: "Test Test Test Test Test Test",
       foreign: "Test Test Test Test Test Test",
     ),
-    Subtitle(
+    MySubtitle(
       id: 15,
       native: "Test Test Test Test Test Test",
       foreign: "Test Test Test Test Test Test",
     ),
-    Subtitle(
+    MySubtitle(
       id: 16,
       native: "Test Test Test Test Test Test",
       foreign: "Test Test Test Test Test Test",
     ),
-    Subtitle(
+    MySubtitle(
       id: 17,
       native: "Test Test Test Test Test Test",
       foreign: "Test Test Test Test Test Test",
     ),
-    Subtitle(
+    MySubtitle(
       id: 18,
       native: "Test Test Test Test Test Test",
       foreign: "Test Test Test Test Test Test",
     ),
-    Subtitle(
+    MySubtitle(
       id: 19,
       native: "Test Test Test Test Test Test",
       foreign: "Test Test Test Test Test Test",

@@ -3,17 +3,19 @@ import 'package:flutter/material.dart';
 import 'package:subtitle_transfer/subtitle.dart';
 
 class SubtitleCard extends StatelessWidget {
-  final Subtitle subtitle;
+  final MySubtitle subtitle;
   final bool isActive;
 
   const SubtitleCard({Key? key, required this.subtitle, required this.isActive}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    return Container(
+    return AnimatedContainer(
       decoration: isActive ? const BoxDecoration (
-          color: Colors.red
-      ) : null,
+          color: Colors.red,
+          border: Border(bottom: BorderSide(color: Colors.grey, width: 1))
+      ) : const BoxDecoration(border: Border(bottom: BorderSide(color: Colors.grey, width: 1))),
+      duration: const Duration(milliseconds: 300),
       child: Padding(
         padding: const EdgeInsets.all(12.0),
         child: Row(

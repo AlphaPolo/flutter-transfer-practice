@@ -38,8 +38,12 @@ dependencies:
   cupertino_icons: ^1.0.2
   interval_tree: ^0.3.0
   youtube_player_iframe: ^2.2.2
-  scroll_to_index: any
   queries: ^0.1.15
+  firebase_core: ^1.17.0
+  firebase_database: ^9.0.14
+  firebase_storage: ^10.2.16
+  srt_parser: ^1.1.0+5
+  scrollable_positioned_list: ^0.3.1
 
 dev_dependencies:
   flutter_test:

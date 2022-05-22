@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "521088007957",
+    "firebase_url": "https://subtitlevideo-default-rtdb.firebaseio.com",
+    "project_id": "subtitlevideo",
+    "storage_bucket": "subtitlevideo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:521088007957:android:62fda2a8f37eed4ac1f31c",
+        "android_client_info": {
+          "package_name": "com.example.subtitle_transfer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "521088007957-5g0ldm6fvqognldcmkipt0pj2jse5i0c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlusk6u7XwXxZ9-3h-sfgyESug6_EZGx8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "521088007957-5g0ldm6fvqognldcmkipt0pj2jse5i0c.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "521088007957-ch23cksr0l6druksl7c8jq483f6l725a.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.subtitleTransfer"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
